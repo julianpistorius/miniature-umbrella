@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: static/img/uploads
+public_folder: /img/uploads
+collections:
+  - name: pages
+    label: Pages
+    folder: site/content
+    create: true
+    format: yaml
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Body, name: body, widget: markdown }

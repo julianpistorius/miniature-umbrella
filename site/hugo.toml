@@ -1,0 +1,7 @@
+baseURL = 'https://jetsweb.sitehost.iu.edu/'
+languageCode = 'en-us'
+title = 'Jetstream2'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
